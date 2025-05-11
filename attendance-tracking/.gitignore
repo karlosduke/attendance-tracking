@@ -1,1 +1,19 @@
 
+6. Crea el archivo .gitignore:
+- Haz clic en "Add file" > "Create new file"
+- Nombre el archivo: `.gitignore`
+- Copia y pega este contenido:
+
+```gitignore
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Plugin specific files
+signatures/
+*.log
